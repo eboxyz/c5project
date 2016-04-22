@@ -1,0 +1,226 @@
+
+
+#background{
+  height: 100px;
+  width: 100%;
+  background-image: url('../images/appfolio-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+}
+.col-sm-4{
+  height: 50vh;
+}
+
+#header{
+  height: 30vh;
+  background: #2D3943;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#head1{
+  color: white !important;
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: bold;
+  float: none;
+  margin-left: 24%;
+}
+
+#head2{
+  color: white !important;
+  text-align: left;
+  font-size: 3em;
+  margin-left: 24%;
+}
+
+#headBar{
+  width: 18px;
+  border: 2px #F16823 solid;
+  background: #F16823;
+  position: relative;
+  left: 24%;
+  bottom: 1%;
+}
+
+#headStatement{
+  color: white;
+  width: 45%;
+  font-size: 1.4em;
+  text-align: left;
+  position: relative;
+  left: 22.5%;
+
+}
+
+.content{
+  text-align: center;
+  margin-left: 5.5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tile1{
+  background-color: #2D3943;
+  background-image: url('../images/tile1.svg');
+  background-repeat: no-repeat;
+  background-position: 84% 17%;
+  background-size: 46%;
+  width: 90%;
+}
+
+#orangeBar{
+  width: 29px;
+  border: 2px #F16823 solid;
+  background: #F16823;
+  position: relative;
+  top: 55%;
+  left: 7.8%;
+}
+
+#content1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5em;
+  text-align: left;
+  position: relative;
+  top: 55%;
+  left: 8%;
+}
+
+#tile2{
+  background-color: #FECA42;
+  background-image: url('../images/tile2.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 38%;
+  background-size: 80%;
+  width: 90%;
+}
+
+#content2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5em;
+  text-align: left;
+  position: relative;
+  top: 72%;
+  left: 9%;
+}
+
+.bold{
+  font-size: 1.4em;
+}
+
+
+#tile3{
+  background-color: #2AADD5;
+  background-image: url('../images/tile3.svg');
+  background-repeat: no-repeat;
+  background-position: 87% 23%;
+  background-size: 63%;
+  width: 90%;
+}
+
+#yellowBar{
+  border: 2px #FECA42 solid;
+  width: 46px;
+  position: relative;
+  top: 61%;
+  left: 6.5%;
+}
+
+#content3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  text-align: left;
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .col-sm-4{
+    height: 37vh;
+    width: 40% !important;
+  }
+
+  .content{
+  text-align: center;
+  margin-bottom: 5%;
+  color: white;
+  width: 400px;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  #content1{
+    font-size: 1.5em;
+    top: 55%;
+    left: 8%;
+  }
+
+  #content2{
+    font-size: 1.5em;
+  }
+
+  #content3{
+    font-size: 1.4em;
+  }
+
+  #yellowBar{
+    left: 5.5%;
+  }
+
+  #head1{
+    font-size: 3em;
+    position: relative;
+    right: 20%;
+    top: 13%;
+    width: 80%;
+  }
+
+  #head2{
+    color: white !important;
+    text-align: left;
+    font-size: 2.5em;
+    width: 80%;
+    position: relative;
+    right: 20%;
+    top: 10%;
+  }
+
+  #headBar{
+    width: 18px;
+    border: 1px #F16823 solid;
+    background: #F16823;
+    position: relative;
+    left: 4%;
+    top: 10%;
+    bottom: 1%;
+  }
+
+  #headStatement{
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 12%;
+    font-size: 1.5em;
+    width: 80%;
+    left: 2.5%;
+  }
+
+
+}
+
+@media only screen and (min-width : 1025px) {
+
+}
+
+
+
+
+
+
+
+
